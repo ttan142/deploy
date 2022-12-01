@@ -65,7 +65,7 @@ function App() {
         <Header />
         <Switch>
           <Route
-            path="/"
+            path="*/"
             exact
             render={(props) => (
               <TodoList
