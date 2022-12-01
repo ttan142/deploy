@@ -39,7 +39,7 @@ class AddTodo extends React.Component {
               onChange={(e) => this.setState({ completed: e.target.value })}
             >
               <option style={{ display: "none" }} />
-              <option value={true}>True</option>
+              <option value={true}>Trxzxcue</option>
               <option value={false}>False</option>
             </select>
           </div>

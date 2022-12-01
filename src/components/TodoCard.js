@@ -15,7 +15,6 @@ const TodoCard = (props) => {
     <div className="item">
       <div style={getStyle()} className="header">
         {title}
-        <span>
         <i
           className="trash alternate outline icon"
           style={{ color: "red", marginLeft: "10px" }}
@@ -27,7 +26,6 @@ const TodoCard = (props) => {
             style={{ color: "blue" }}
           ></i>
         </Link>
-        </span>
       </div>
     </div>
   );

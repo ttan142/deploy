@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuid_v4 } from "uuid";
+import { uuid } from "uuidv4";
 import api from "../api/todos";
 import "./App.css";
 import Header from "./Header";
@@ -19,7 +20,7 @@ function App() {
   const addTodoHandler = async (todo) => {
     console.log(todo);
     const request = {
-      id: uuidv4(),
+      id: uuid(),
       ...todo,
     };
 
